@@ -1,0 +1,21 @@
+{
+    "prompts": {
+        "name": {
+            "type": "string",
+            "required": true,
+            "label": "Project name"
+        },
+        "description": {
+            "type": "string",
+            "required": true,
+            "label": "Project description",
+            "default": "HTML Handlebars site."
+        },
+        "author": {
+            "type": "string",
+            "label": "Author"
+        }
+    },
+    "skipInterpolation": "resources/templates/**/*.hbs",
+    "completeMessage": "To get started:\n\n  cd {{destDirName}}\n  yarn\n  npm run watch"
+}
